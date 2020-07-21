@@ -1,0 +1,57 @@
+header {
+    background-color: lightcyan;
+    color: midnightblue;
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    line-height: 150%;
+}
+
+h2 {
+    color: midnightblue;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.Bio {
+    border-style: dashed;
+    border-width: 10px;
+    width: 60%;
+    margin-right: 20px;
+}
+p {
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+#Contact {
+    width: 30%
+}
+
+#styledImage {
+    border: double;
+    border-color: dodgerblue;
+    border-width: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 200px;
+    float: right;
+}
+ul {
+    border: navy;
+    border-style: dashed;
+    border-width: 10px;
+    text-align: left;
+}
+#Contact, .Bio {
+    float: left;
+
+}
