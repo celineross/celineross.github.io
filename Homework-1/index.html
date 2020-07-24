@@ -7,6 +7,7 @@
     <title>Horiseon</title>
 </head>
 
+<!-- body of the page -->
 <body>
 
     <!-- container includes the styled navigation bar and main title, section offers
@@ -41,7 +42,7 @@
     <img class="hero"></img>
 
     <!-- container for formatting each content container -->
-    <section class="content">
+    <main class="content">
 
         <!-- container for first content box elements -->
         <article class="search-engine-optimization">
@@ -103,43 +104,76 @@
         </article>
 
     <!-- close .content container -->
-    </section>
+    </main>
 
 
     <!-- right side content container -->
-    <div class="benefits">
-        <div class="benefit-lead">
+    <aside class="benefits">
+
+        <!-- first section of content in the aside -->
+        <section class="benefit-lead">
+
+            <!-- content header -->
             <h3>Lead Generation</h3>
-            <img src="images/lead-generation.png" />
+            <!-- content image -->
+            <img src="images/lead-generation.png" alt = "gear pointing at dollar sign"/>
+            <!-- content for this section -->
             <p>
                 Inbound strategies for lead generation require less work for your business, 
                 bringing customers directly to your website.
             </p>
-        </div>
-        <div class="benefit-brand">
+
+        <!-- close benefit-lead section -->
+        </section>
+
+        <!-- second section of content in the aside -->
+        <section class="benefit-brand">
+            <!-- content header -->
             <h3>Brand Awareness</h3>
-            <img src="images/brand-awareness.png" />
+            <!-- content-specific image -->
+            <img src="images/brand-awareness.png" alt = "torso with a lightbulb as a head,
+            indicating idea"/>
+            <!-- content for this section -->
             <p>
                 Users find your business through paid and organic searches, increasing the 
                 search ranking and visibility for your business.
             </p>
-        </div>
-        <div class="benefit-cost">
+
+        <!-- close benefit-brand section -->
+        </section>
+
+        <!-- last section of the content in the aside -->
+        <section class="benefit-cost">
+
+            <!-- content header -->
             <h3>Cost Management</h3>
+            <!-- content-specific image -->
             <img src="images/cost-management.png"></img>
+            <!-- content for this section -->
             <p>
                 As the search ranking for your business increases, your advertising costs 
                 decrease, and you no longer need to advertise your page.
             </p>
-        </div>
-    </div>
 
+        <!-- closing benefit-cost section -->
+        </section>
+
+    <!-- close aside -->
+    </aside>
+
+    <!-- footer at bottom of the page -->
     <footer class="footer">
+        <!-- header phrase for footer -->
         <h2>Made with ❤️️ by Horiseon</h2>
+        <!-- footer content -->
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
+
+    <!-- close footer -->
     </footer>
+
+<!-- close body of page -->
 </body>
 
 </html>
