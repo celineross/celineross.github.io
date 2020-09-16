@@ -54,7 +54,7 @@ h1 {
 
 /* space between thumbnails */
 .sites {
-    margin-bottom: 30px;
+    width: 100%;
 }
 
 /* change sticky footer color */
