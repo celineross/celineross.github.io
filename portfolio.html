@@ -1,46 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- link to bootstrap css -->
-    <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-    crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 
     <!-- some styyyyle -->
     <link rel="stylesheet" href="css/style.css">
-    
+
     <!-- link to bootstrap js -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
-    crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
-    crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" 
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 
     <title>Portfolio</title>
 
 
 </head>
 
-<body style = "background-image: url(images/background.jpg);">
+<body style="background-image: url(images/background.jpg);">
 
     <header>
         <!-- navigation bar linking to about, portfolio, and contact pages -->
         <nav class="navbar navbar-expand-lg navbar-light">
             <!-- links to about me page -->
             <a class="navbar-brand" href="index.html">Home/About</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" 
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -57,64 +54,95 @@
 
                 </ul>
             </div>
-        <!-- close navigation bar -->
+            <!-- close navigation bar -->
         </nav>
     </header>
 
-        <!-- portfolio section -->
-        <main class = "portfolio">
-            <!-- wrapper div -->
-            <div class = "my-container" style = "margin-top: 50px; margin-bottom: 50px;">
+    <!-- portfolio section -->
+    <main class="portfolio">
+        <!-- wrapper div -->
+        <div class="my-container" style="margin-top: 50px; margin-bottom: 50px;">
 
-                <div class = "row">
-                    <div class = "col-lg-12">
-                        <!-- header for content box, followed by content -->
-                        <div class = "page-header">
-                            <h1>Portfolio</h1>
-                            <hr>
-                            <p>View my resume <a style="color: black;" href="images/resume_updated.pdf" class="resume" target="_blank">here.</a></p>
-                            <p>
-                                Below are some small, sample projects I've worked on during my first few weeks in
-                                UTSA's coding bootcamp. Click the thumbnails to view their respective GitHub repositories.
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- header for content box, followed by content -->
+                    <div class="page-header">
+                        <h1>Portfolio</h1>
+                        <hr>
+                        <p>View my resume <a style="color: rgb(40, 46, 46);" href="images/resume_updated.pdf"
+                                class="resume" target="_blank">here.</a></p>
+                        <p>
+                            Below are some small, sample projects I've worked on during my first few weeks in
+                            UTSA's coding bootcamp. Click the thumbnails to view their respective GitHub repositories.
+                        </p>
+                        <br>
+                    </div>
+
+                    <!-- subgrid for project thumbnails -->
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <a href="https://github.com/celineross/celineross.github.io/tree/master/Homework3JS"
+                                target="_blank">
+                                <img class="sites" src="images/final.png" alt="Password Generator"></a>
+                            <p style="text-align: center;">Click <a style="color:rgb(40, 46, 46);"
+                                    href="https://celineross.github.io/Homework3JS/">here</a> to view the app in action.
                             </p>
-                            <br>
-                        </div>
 
-                        <!-- subgrid for project thumbnails -->
-                        <div class ="row">
-                            <div class = "col-lg-6">
-                                <a href="https://github.com/celineross/celineross.github.io/tree/master/Homework3JS" target = "_blank">
-                                <img class = "sites" src = "images/final.png" alt ="Password Generator"></a>
-                                <p style="text-align: center;">Click <a style="color:black;" href="https://celineross.github.io/Homework3JS/">here</a> to view the app in action.</p>
-                                
-                                <a href="https://github.com/celineross/celineross.github.io/tree/master/Homework4CodeQuiz" target = "_blank">
-                                <img class="sites" src="images/timer.png" alt="Code Quiz"></a>
-                                <p style="text-align: center;">Click <a style="color: black;" href="https://celineross.github.io/Homework4CodeQuiz/">here</a> to view the app in action.</p>
+                            <a href="https://github.com/celineross/Employee-Management-System" target="_blank">
+                                <img class="sites" src="images/emp.png" alt="Employee Management System"></a>
+                            <p style="text-align: center;">Click <a style="color: rgb(40, 46, 46);"
+                                    href="https://github.com/celineross/Employee-Management-System/blob/gif/working.gif">here</a>
+                                to view the app in
+                                action.</p>
 
-                                <a href="https://github.com/cascutter/Project-1-Night-In" target="_blank">
+                            <a href="https://github.com/celineross/Note-Taker" target="_blank">
+                                <img class="sites" src="images/notetaker.png" alt="Note Taker"></a>
+                            <p style="text-align: center;">Click <a style="color: rgb(40, 46, 46);"
+                                    href="https://secure-castle-48565.herokuapp.com/">here</a>
+                                to view the app in
+                                action.</p>
+
+                            <a href="https://github.com/celineross/Template-Engine" target="_blank">
+                                <img class="sites" src="images/templategen.png" alt="Note Taker"></a>
+                            <p style="text-align: center;">Click <a style="color: rgb(40, 46, 46);"
+                                    href="https://celineross.github.io/Homework-10-Template-Engine/">here</a>
+                                to view the app in
+                                action.</p>
+
+                            <a href="https://github.com/cascutter/Project-1-Night-In" target="_blank">
                                 <img class="sites" src="images/homepage.png" alt="Night In Project"></a>
-                                <p style="text-align: center;">Click <a style="color:black;" href="https://cascutter.github.io/Project-1-Night-In/">here</a> to view the app in action.</p>
-                                <!-- close subgrid -->
+                            <p style="text-align: center;">Click <a style="color:rgb(40, 46, 46);"
+                                    href="https://cascutter.github.io/Project-1-Night-In/">here</a> to view the app in
+                                action.</p>
+
+                            <a href="https://github.com/cascutter/Project2" target="_blank">
+                                <img class="sites" src="images/project2.jpg" alt="Project 2 AudioFiler"></a>
+                            <p style="text-align: center;">Click <a style="color:rgb(40, 46, 46);"
+                                    href="https://blooming-wildwood-71202.herokuapp.com/">here</a> to view the app in
+                                action.</p>
+                            <!-- close subgrid -->
                         </div>
 
-                    <!-- close header row -->
+                        <!-- close header row -->
                     </div>
                 </div>
 
                 <!-- close wrapper -->
             </div>
-        <!-- close portfolio -->
-        </section>
-    <!-- close main -->
+            <!-- close portfolio -->
+            </section>
+            <!-- close main -->
     </main>
 
     <footer class="footer mt-auto py-3">
         <div class="container">
-          <span class="text">Find me on <a style ="color: black" href="https://www.linkedin.com/in/celine-ross-823b34180/" 
-            target = "_blank">LinkedIn</a> and <a style="color :black" href="https://github.com/celineross" target ="_blank">
-            GitHub.</a></span>
+            <span class="text">Find me on <a style="color: rgb(40, 46, 46)"
+                    href="https://www.linkedin.com/in/celine-ross-823b34180/" target="_blank">LinkedIn</a> and <a
+                    style="color :rgb(40, 46, 46)" href="https://github.com/celineross" target="_blank">
+                    GitHub.</a></span>
         </div>
     </footer>
 
 </body>
+
 </html>
